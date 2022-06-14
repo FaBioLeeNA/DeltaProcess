@@ -1,0 +1,1 @@
+module.exports = async (secs) => new Promise(res => setTimeout(res, 1000 * secs))
